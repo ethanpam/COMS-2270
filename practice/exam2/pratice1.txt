@@ -1,0 +1,38 @@
+// Version 1
+resultBool = x > y && x != z;
+
+
+// Version 2
+resultBool = false;
+
+if(x > y){
+    if(x != z){
+        resultBool = true;
+    }
+}
+
+// Should result the same
+
+// -------------------------------------------------------
+
+String word = "computer";
+
+word.charAt(3)
+
+// returns 'p'
+
+// -------------------------------------------------------
+
+Math.min(8, 3)
+// Returns 8 has it 8 > 3
+
+// -------------------------------------------------------
+
+return restOfWord.indexOf(firstChar) ___ -1;
+// !=
+
+// -------------------------------------------------------
+
+ParkingMeter meter = new ParkingMeter(15,60);
+// Creates an object called ParkingMeter that sets the value of the instance variable 
+// It is not creating a method as method is like public int blah blah blah
